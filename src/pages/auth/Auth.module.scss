@@ -1,0 +1,236 @@
+@media screen and(max-width:850px) {
+      .container{
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            color: var(--black-color);
+            position: relative;
+            
+            &-text{
+                  font-size: 1.6rem;
+                  padding: 1rem 2.5rem 4rem 2.5rem;
+                  color: #303030c7;
+            }
+            
+            h1{
+                  margin: 7rem 0 0 2.5rem;
+                  font-size: 2.7rem;
+                  font-weight: 600;
+            }
+            
+            &-one{
+                  padding: 2rem 2.5rem 1rem 2.5rem;
+                  display: flex;
+                  flex-direction: column;
+                  gap: 1rem;
+
+                  label{
+                        font-size: 1.4rem;
+                        font-weight: 500;
+                        margin-top: 0.7rem;
+                  }
+
+                  input{
+                        border: 1px solid var(--border-color);
+                        color: var(--black-color);
+                        font-size: 1.6rem;
+                        font-weight: 400;
+                        outline: 0;
+                        height: 4rem;
+                        padding: 0 1.5rem;
+                        border-radius: 10px;;
+                  }
+
+                  &-span{
+                        display: flex;
+                        align-items: center;
+                        font-size: 1.2rem;
+                        font-weight: 500;
+                        line-height: 2;
+
+                        .terms{
+                              margin-left: 1rem;
+                              
+                              a{
+                                     color: var(--primary-color);
+                              }
+                        }
+
+                        .forgot{
+                              color: var(--primary-color);
+                              margin-left: 12rem;
+                        }
+                  }
+
+                  button{
+                        height: 5rem;
+                        background-color: var(--primary-color);
+                        color: white;
+                        font-weight: 500;
+                        font-size: 1.6rem;
+                        border: 0;
+                        outline: 0;
+                        border-radius: 8px;
+
+                        &:active{
+                              transform: translateY(2px);
+                        }
+                  }
+
+            }
+
+            &-two{
+                  display: flex;
+                  align-items: center;
+                  gap:0.5rem;
+                  font-size: 1.6rem;
+                  padding: 0.6rem 2.5rem;
+
+                  span{
+                        width: 50%;
+                        background-color: rgba(128, 128, 128, 0.355);
+                        height: 1px;
+                  }
+            }
+
+            &-three{
+                   padding: 2rem 2.5rem 0 2.5rem;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                  button{
+                        height: 5rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 1rem;
+                        background-color: white;
+                        font-weight: 500;
+                        font-size: 1.8rem;
+                        width: 100%;
+                        border: 1px solid var(--border-color);
+                        outline: 0;
+                        border-radius: 8px;
+
+                        &:active{
+                              transform: translateY(2px);
+                        }
+                  }
+
+                  p{
+                        font-size: 1.3rem;
+                        line-height: 2.1;
+                        text-decoration: none;
+                        margin-top: 2rem;
+
+                        a{
+                              color: var(--primary-color);
+                              padding-left: 1rem;
+                              font-weight: 500;
+                        }
+                  }
+
+                  .user{
+                        margin-top: -1.5rem;
+                  }
+            }
+
+            &-content{
+                   padding: 2rem 2.5rem 1rem 2.5rem;
+                   font-size: 1.6rem;
+                   line-height: 2.1;      
+                  }
+                  
+            &-four{
+                  padding: 3rem 2.5rem 1rem 2.5rem;
+                  display: flex;
+                  justify-content: space-between;
+                  
+                  a{
+                        padding: 2rem 5.2rem;
+                        border-radius: 8px;
+                        text-decoration: none;
+                        font-size: 1.6rem;
+                        font-weight: 500;
+
+                        &:active{
+                              transform: translateY(3px);
+                        }
+                  }
+
+                  &-1{
+                        border: 1px solid var(--border-color);
+                        color: var(--primary-color);
+                        background-color: white;
+                  }
+                  
+                  &-2{
+                        color: white;
+                        background-color: var(--primary-color);
+                  }
+            }
+
+            &-boxes{
+                  padding: 0 5rem 0 5rem;
+                  display: flex;
+                  justify-content: space-between;
+
+
+                  &-span{
+                        height: 5.2rem;
+                        width: 6.2rem;
+                        outline: 0;
+                        font-size: 3rem;
+                        color: var(--black-color);
+                        text-align: center;
+                        border-radius: 5px;
+                        border: 1px solid var(--border-color);
+                  }
+            }
+
+            &-five{
+                  padding: 27rem 2.5rem 1rem 2.5rem;
+                  display: flex;
+                  gap: 2rem;
+                  flex-direction: column;
+                  
+                  button,
+                  a{
+                        height: 5rem;
+                        font-size: 1.6rem;
+                        font-weight: 500;   
+                        border-radius: 8px;
+                        outline: 0;
+                        text-decoration: none;
+                  }
+
+                  button:active,
+                  a:active{
+                        transform: translateY(3px);
+                  }
+                  
+                  a{
+                        color: var(--primary-color);
+                        background-color: white;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid var(--border-color);
+                  }
+
+                  &-btn{
+                        background-color: var(--primary-color);
+                        color: white;
+                        border: 0;
+                  }
+            }
+
+            .icon{
+                  position: absolute;
+                  top: 3%;
+                  left: 6%;
+                  font-size: 2.4rem;
+            }
+      }
+}

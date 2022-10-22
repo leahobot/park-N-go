@@ -21,4 +21,7 @@ html{
 :root{
   --font-raleway: 'Raleway', sans-serif;
   --primary-color: #5072BF;
+  --border-color: #DADADA;
+  --black-color: #303030;
+  --buttonBg: #6986C8;
 }
