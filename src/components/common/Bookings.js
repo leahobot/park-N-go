@@ -110,7 +110,6 @@ const Bookings = () => {
 								callback: (response) => {
 									console.log(response);
 									closePaymentModal(); // this will close the modal programmatically
-									navigate("/confirmation");
 								},
 								onClose: () => {},
 							});
