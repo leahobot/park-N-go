@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/park-N-go/static/css/main.f137b0c5.css",
+    "main.js": "/park-N-go/static/js/main.ab4bb899.js",
+    "static/js/787.02555149.chunk.js": "/park-N-go/static/js/787.02555149.chunk.js",
+    "static/media/carPark.png": "/park-N-go/static/media/carPark.a0bde5dd2e3cb543cb97.png",
+    "static/media/onBoarding3.webp": "/park-N-go/static/media/onBoarding3.a3c2c60cfa78c19e1624.webp",
+    "static/media/onBoarding1.webp": "/park-N-go/static/media/onBoarding1.18076892de28f934c8cd.webp",
+    "static/media/onBoarding2.webp": "/park-N-go/static/media/onBoarding2.cddc7ed4c076cc3c7f46.webp",
+    "static/media/logo.svg": "/park-N-go/static/media/logo.131a00541ed3e01e857af47b12ed7983.svg",
+    "index.html": "/park-N-go/index.html",
+    "main.f137b0c5.css.map": "/park-N-go/static/css/main.f137b0c5.css.map",
+    "main.ab4bb899.js.map": "/park-N-go/static/js/main.ab4bb899.js.map",
+    "787.02555149.chunk.js.map": "/park-N-go/static/js/787.02555149.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f137b0c5.css",
+    "static/js/main.ab4bb899.js"
+  ]
+}
