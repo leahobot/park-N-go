@@ -1,6 +1,5 @@
 @media screen and(max-width:850px) {
       .container{
-            height: 100vh;
             width: 100%;
             display: flex;
             flex-direction: column;
@@ -14,7 +13,7 @@
             }
             
             h1{
-                  margin: 7rem 0 0 2.5rem;
+                  margin: 8rem 0 0 2.5rem;
                   font-size: 2.7rem;
                   font-weight: 600;
             }
@@ -228,9 +227,10 @@
 
             .icon{
                   position: absolute;
-                  top: 3%;
+                  top: 6%;
                   left: 6%;
                   font-size: 2.4rem;
             }
       }
+
 }

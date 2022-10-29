@@ -7,4 +7,6 @@ export {default as Login} from "./auth/Login";
 export {default as Reset} from "./auth/Reset";
 export {default as TermsAndCondition} from "./auth/TermsAndCondition";
 export {default as OTP} from "./auth/OTP";
+export {default as Home} from "./home/Home";
+export {default as Confirmation} from "./confirmation/Confirmation";
 export {default as NotFound} from "./notfound/NotFound";
